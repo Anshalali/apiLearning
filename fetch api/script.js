@@ -1,6 +1,6 @@
 // when we fetch or get the api and we will intigrate the api like this way in frontend
 
-let p = fetch("https://goweather.herokuapp.com/weather/Ny")
+let p = fetch("https://backend-online-store-fe.fly.dev/productfilter/newarrivals/6")
     p.then((response) => {
         return response.json()
     }).then((value2) => {
